@@ -19,7 +19,6 @@ public class MainController {
 
     @PostMapping("/submit")
     public String submitForm(@RequestParam String username, @RequestParam String password) {
-        // Обработка данных формы (например, сохранение в базу данных)
         return "redirect:/"; // Перенаправление на главную страницу
     }
 }
